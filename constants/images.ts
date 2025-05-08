@@ -1,9 +1,7 @@
-// import empty from "../assets/images/empty.png";
-// import logo from "../assets/images/logo.png";
-// import logoIcon from "../assets/images/logoicon.png";
+import type { ImageSourcePropType } from 'react-native';
 
-// export default {
-//   logoIcon,
-//   logo,
-//   empty
-// };
+export const images: Record<string, ImageSourcePropType> = {
+    logoIcon:   require('../assets/images/logo-icon.png'),
+    logo:       require('../assets/images/logo.png'),
+    empty:      require('../assets/images/empty.png'),
+} as const;
