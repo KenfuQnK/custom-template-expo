@@ -41,3 +41,5 @@ app-example
 # Custom
 .send/
 .backup/
+*.bat
+*.py
